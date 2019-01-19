@@ -1,3 +1,41 @@
+/*
+Displays album artwork of currently playing song from your Spotify account.
+
+By: Wes Furuya and Andrew England
+SparkFun Electronics
+Date: January 7th, 2019
+
+License: This code is public domain but you buy me a beer if you use this and we meet
+someday (Beerware license).
+
+This code sets up your ESP32 as a webpage server and loads a 64x64 pixel image from the
+Spotify Client API. The ESP32 then decodes the jpg image into an 8-bit color array that
+gets displayed on the matrix panel.
+
+This code is written for the SparkFun ESP32 Thing and the 64x64 RGB LED Matrix Panel.
+SparkFun sells these at its website: www.sparkfun.com Do you like this library? Help
+support SparkFun. Buy a board and panel!
+    https://www.sparkfun.com/products/13907
+    https://www.sparkfun.com/products/14824
+
+This code is based off the ESP8266 Spotify Remote, written by Thing Pulse:
+    https://github.com/ThingPulse/esp8266-spotify-remote/
+
+This code requires several libraries to run:
+JPEGDecoder-   https://github.com/Bodmer/JPEGDecoder
+PxMatrix-      https://github.com/2dom/PxMatrix
+FastLED-       https://github.com/FastLED/FastLED
+Adafruit GFX-  https://github.com/adafruit/Adafruit-GFX-Library
+
+Development environment specifics: Arduino IDE 1.8.5
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details. You should have received a copy of
+the GNU General Public License along with this program.  If not, see
+<http://www.gnu.org/licenses/>.
+
+*/
 
 // Libraries
 #include <WiFi.h>
