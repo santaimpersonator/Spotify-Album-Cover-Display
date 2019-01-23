@@ -51,6 +51,7 @@ Espressif has made it simple to install the ESP32 core into the Arduino IDE. You
 ### Required Libraries
 This code requires several libraries to run:
 
+* [JSON Streaming Parser](https://github.com/squix78/json-streaming-parser)
 * [JPEGDecoder](https://github.com/Bodmer/JPEGDecoder)
 * [PxMatrix](https://github.com/2dom/PxMatrix)
 * [FastLED](https://github.com/FastLED/FastLED)
