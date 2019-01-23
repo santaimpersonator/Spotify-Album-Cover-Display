@@ -38,21 +38,43 @@ To power the matrix panel, I used the alligator clips with pig tails to pull pow
 
 Below is a table of the pin connections used between the matrix panel and SparkFun's ESP32.
 
-## Software: Arduino IDE
+## Software:
+You will need to install the Arduino IDE to your desktop and have a Spotify account.
+
+### Spotify
+With your Spotify account, you will need to register for a developer account on their <a href="https://developer.spotify.com/dashboard/">website</a>. Don't worry, it is free... so <a href="https://developer.spotify.com/dashboard/">log in here</a>.
+
+[Image]
+
+Once you have logged in, you will need to move over to the **DASHBOARD** tab to create a client ID. *Click* **CREATE A CLIENT ID**.
+
+[Image]
+
+Name your app, add a description, and select "*what you are building*". In my case, I called it "*Album Artwork Display*as a name and put down, *API for pulling album artwork using SparkFun's ESP32* as a description. You can select what every you want for the last entry, I 
+
+blah-blah blah...
+
+
+### Arduino IDE
 
 You can [download the Arduino IDE](http://arduino.cc/en/Main/Software) from their website. They have [installation instructions](https://www.arduino.cc/en/Guide/HomePage)
 
 <b>Note:</b> This section assumes you are using the latest stable version of the Arduino IDE on your desktop. If this is your first time using Arduino, please review our tutorial on <a href="https://learn.sparkfun.com/tutorials/installing-arduino-ide">installing the Arduino IDE.</a> If you have not previously installed an Arduino library, please check out our <a href="https://learn.sparkfun.com/tutorials/installing-an-arduino-library">installation guide.</a>
 
-### Adding ESP 32 to Board Manager
+<ul>
+  
+  #### Adding ESP 32 to Board Manager
+  
+  Espressif has made it simple to install the ESP32 core into the Arduino IDE. You can find instructions on their <a href="https://github.com/espressif/arduino-esp32">GitHub page</a>. Otherwise, you can also find instructions on <a href="https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide#installing-via-arduino-ide-boards-manager"> SparkFun's ESP32 Thing Hookup Guide</a>.
+  
+  #### Required Libraries
+  This code requires several libraries to run. Please make sure to install the folowing libraries through the library manager:
+  
+  * [JSON Streaming Parser](https://github.com/squix78/json-streaming-parser)
+  * [JPEGDecoder](https://github.com/Bodmer/JPEGDecoder)
+  * [PxMatrix](https://github.com/2dom/PxMatrix)
+  * [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library)
 
-Espressif has made it simple to install the ESP32 core into the Arduino IDE. You can find instructions on their <a href="https://github.com/espressif/arduino-esp32">GitHub page</a>. Otherwise, you can also find instructions on <a href="https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide#installing-via-arduino-ide-boards-manager"> SparkFun's ESP32 Thing Hookup Guide</a>.
+  * [FastLED](https://github.com/FastLED/FastLED) ????
 
-### Required Libraries
-This code requires several libraries to run:
-
-* [JSON Streaming Parser](https://github.com/squix78/json-streaming-parser)
-* [JPEGDecoder](https://github.com/Bodmer/JPEGDecoder)
-* [PxMatrix](https://github.com/2dom/PxMatrix)
-* [FastLED](https://github.com/FastLED/FastLED)
-* [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library)
+</ul>
