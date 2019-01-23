@@ -29,7 +29,7 @@ This project does require a small amount of soldering for the headers. If you do
 
 * [SparkFun Beginner Tool Kit](https://www.sparkfun.com/products/14681)
 
-To power the matrix panel, I use the alligator clips with pig tails to pull power directly from the USB Micro-B wall adapter off of the SparkFun ESP32. However, you can use the following materials instead to power the matrix panel directly with the power cable included with the panel:
+To power the matrix panel, I used the alligator clips with pig tails to pull power directly from the USB Micro-B wall adapter off of the SparkFun ESP32. However, you can use the following materials instead to power the matrix panel directly with the power cable included with the panel:
 
 * [Wall Adapter Power Supply - 5V DC 2A (Barrel Jack)](https://www.sparkfun.com/products/12889)
 * [DC Barrel Jack Adapter - Female](https://www.sparkfun.com/products/10288)
