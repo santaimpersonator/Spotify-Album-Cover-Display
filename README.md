@@ -1,7 +1,7 @@
 # Spotify-Album-Cover-Display
-Spotify Album Cover Display using SparkFun ESP32 and 64x64 RGB LED Matrix Display
+Spotify Album Cover Display using SparkFun ESP32 and 64x64 RGB LED Matrix Panel.
 
-This code is based off the <a href="https://github.com/ThingPulse/esp8266-spotify-remote/">ESP8266 Spotify Remote</a>, written by Thing Pulse.
+_This code is based off the <a href="https://github.com/ThingPulse/esp8266-spotify-remote/">ESP8266 Spotify Remote</a>, written by Thing Pulse._
 
 ## Introduction
 
