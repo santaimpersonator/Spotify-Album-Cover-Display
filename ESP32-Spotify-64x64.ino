@@ -22,6 +22,7 @@ This code is based off the ESP8266 Spotify Remote, written by Thing Pulse:
     https://github.com/ThingPulse/esp8266-spotify-remote/
 
 This code requires several libraries to run:
+JSON Parser-   https://github.com/squix78/json-streaming-parser
 JPEGDecoder-   https://github.com/Bodmer/JPEGDecoder
 PxMatrix-      https://github.com/2dom/PxMatrix
 FastLED-       https://github.com/FastLED/FastLED
