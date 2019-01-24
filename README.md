@@ -42,27 +42,35 @@ Below is a table of the pin connections used between the matrix panel and SparkF
 You will need to install the Arduino IDE to your desktop and have a Spotify account.
 
 ### Spotify
-With your Spotify account, you will need to register for a developer account on their <a href="https://developer.spotify.com/dashboard/">website</a>. Don't worry, it is free... so <a href="https://developer.spotify.com/dashboard/">log in here</a>.
+With your Spotify account, you will need to register for a developer account on their <a href="https://developer.spotify.com/dashboard/">website</a>. Don't worry, it is free... so <a href="https://developer.spotify.com/dashboard/">log in here</a>. Once you have logged in, you will need to agree to the terms of service.
 
-<center><img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Log%20In.PNG" width="500"></center>
-
-Once you have logged in, you will need to agree to the terms of service.
-
-<center><img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Terms%20of%20Service.PNG" width="500"></center>
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Log%20In.PNG" width="400">
+  </div>
+  <div class="column"> 
+  </div>
+  <div class="column">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Terms%20of%20Service.PNG" width="400">
+  </div>
+</div>
 
 You will be sent over to the **DASHBOARD**. *Click* either the Create App box or **CREATE A CLIENT ID** button.
 
 <center><img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Create%20App.PNG" width="500"></center>
 
-Name your app, add a description, and select "*what you are building*".
+Name your app, add a description, and select "*what you are building*". Agree to the terms again.
 
-<center><img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Step%201a.PNG" width="300"></center>
-
-
-Agree to the terms again.
-
-<img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Step%203.PNG" width="300">
-
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Step%201a.PNG" width="300">
+  </div>
+  <div class="column"> 
+  </div>
+  <div class="column">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Step%203.PNG" width="300" align="top">
+  </div>
+</div>
 
 Now that you have setup your App, you will need to do 2 things. Set the redirect URI and retrieve the Client ID and Client Secret for the API.
 
