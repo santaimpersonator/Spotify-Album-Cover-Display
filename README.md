@@ -46,12 +46,12 @@ With your Spotify account, you will need to register for a developer account on 
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Log%20In.PNG" width="400">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Log%20In.PNG" width="300">
   </div>
   <div class="column"> 
   </div>
   <div class="column">
-    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Terms%20of%20Service.PNG" width="400">
+    <img src="https://github.com/santaimpersonator/Spotify-Album-Cover-Display/blob/master/Sreenshots/Terms%20of%20Service.PNG" width="300">
   </div>
 </div>
 
