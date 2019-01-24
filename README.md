@@ -1,17 +1,14 @@
-# Spotify-Album-Cover-Display
-Spotify Album Cover Display using SparkFun ESP32 and 64x64 RGB LED Matrix Panel.
+This project uses a SparkFun ESP32 and 64x64 RGB LED Matrix Panel.
 
 _This code is based off the <a href="https://github.com/ThingPulse/esp8266-spotify-remote/">ESP8266 Spotify Remote</a>, written by Thing Pulse._
 
 ## Introduction
 
-This code sets up your ESP32 as a webpage server and loads a 64x64 pixel image from the
-Spotify Client API. The ESP32 then decodes the jpg image into an 8-bit color array that
-gets displayed on the matrix panel.
+This code sets up your ESP32 as a webpage server and loads a 64x64 pixel image from the Spotify Client API. The ESP32 then decodes the jpg image into an 8-bit color array that gets displayed on the matrix panel.
 
 ## Required Hardware
 
-This code is written for the SparkFun ESP32 Thing and the 64x64 RGB LED Matrix Panel. Below is a list of all the materials used in this project. If you enjoy this project, please support SparkFun!
+This code is written for the SparkFun ESP32 Thing and the 64x64 RGB LED Matrix Panel sold by SparkFun. Below is a list of all the materials used in this project. If you enjoy this project, please support SparkFun!
 
 * [SparkFun ESP32 Thing](https://www.sparkfun.com/products/13907)
 * [ESP32 Thing Stackable Header Set](https://www.sparkfun.com/products/14311)
@@ -33,7 +30,3 @@ To power the matrix panel, I used the alligator clips with pig tails to pull pow
 
 * [Wall Adapter Power Supply - 5V DC 2A (Barrel Jack)](https://www.sparkfun.com/products/12889)
 * [DC Barrel Jack Adapter - Female](https://www.sparkfun.com/products/10288)
-
-
-
-
