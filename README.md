@@ -46,14 +46,28 @@ With your Spotify account, you will need to register for a developer account on 
 
 [Image]
 
-Once you have logged in, you will need to move over to the **DASHBOARD** tab to create a client ID. *Click* **CREATE A CLIENT ID**.
+Once you have logged in, you will need to agree to the terms of service.
 
 [Image]
 
-Name your app, add a description, and select "*what you are building*". In my case, I called it "*Album Artwork Display*as a name and put down, *API for pulling album artwork using SparkFun's ESP32* as a description. You can select what every you want for the last entry, I 
 
-blah-blah blah...
+You will be sent over to the **DASHBOARD**. *Click* either the Create App box or **CREATE A CLIENT ID** button.
 
+[Image]
+
+Name your app, add a description, and select "*what you are building*".
+
+Agree to the terms again.
+
+Now that you have setup your App, you will need to do 2 things. Set the redirect URI and retrieve the Client ID and Client Secret for the API.
+
+#### Redireect URI
+
+To set the redirect URI, select *click* the **EDIT SETTINGS** button. Find the entry for *Redirect URIs* and enter `http://esp32.local/callback`.
+
+#### Redireect URI
+
+To grab the Client Secret, *click* the **SHOW CLIENT SECRET**. You will need this information for the settings header file `settings.h` in the Arduino sketch.
 
 ### Arduino IDE
 
@@ -78,3 +92,27 @@ You can [download the Arduino IDE](http://arduino.cc/en/Main/Software) from thei
   * [FastLED](https://github.com/FastLED/FastLED) ????
 
 </ul>
+
+#### Copy the Code
+
+This should be obvious, but download/copy the code from this repository. All 4 files should be in the same folder.
+
+#### Settings.h
+
+You will need to modify the settings header file `settings.h` to set the board up for your WiFi and your Spotify API.
+Enter in the credentials for your WiFi network. If you are on a corporate or school network, you may need to contact your IT administrator.
+
+#### Uploading
+Select the SparkFun ESP32 Thing as your board. Select the port for your board; then upload to the ESP32.
+
+It may take a few minutes for the Arduino IDE to compile the sketch.
+
+#### Get IP Address
+
+Once you have finished uplaoding the sketch, you need to open the Serial Monitor. Remember to set the baudrate to 115200 bps; otherwise, you will see nothing or a bunch of jibberish. You should see the board connecting to your network. Once the ESP32 has connected to your WiFI network, it will display the IP Adress in the Serial Monitor. (_To keep the Serial Monitor from scolling, uncheck the **Autoscroll** box on the lower lefthand corner of the Serial Monitor._)
+
+If you miss this you can reset the board with the **RST** button.
+
+
+
+
